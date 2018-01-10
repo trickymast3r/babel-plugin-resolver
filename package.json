@@ -1,0 +1,9 @@
+{
+  "name": "mrjs-babel-plugin-resolver",
+  "version": "0.0.1",
+  "description": "Smarter Resolver For Babel",
+  "main": "./lib/index.js",
+  "repository": "https://github.com/trickymast3r/babel-plugin-resolver",
+  "author": "Tricky <tricky@t4v.net>",
+  "license": "MIT"
+}
