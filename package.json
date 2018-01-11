@@ -1,6 +1,6 @@
 {
   "name": "@mrjs/babel-plugin-sresolver",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Smarter Resolver For Babel",
   "main": "./lib/",
   "repository": "trickymast3r/babel-plugin-sresolver",
