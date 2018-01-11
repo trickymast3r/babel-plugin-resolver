@@ -21,7 +21,7 @@
     "compile": "babel src --out-dir lib",
     "pretest": "npm run lint",
     "prepare": "npm run compile",
-    "publish": "standard-version"
+    "release": "standard-version"
   },
   "dependencies": {
     "debug": "^3.1.0",
