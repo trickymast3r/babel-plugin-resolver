@@ -1,9 +1,30 @@
 {
-  "name": "mrjs-babel-plugin-resolver",
+  "name": "@mrjs/babel-plugin-sresolver",
   "version": "0.0.1",
   "description": "Smarter Resolver For Babel",
-  "main": "./lib/index.js",
-  "repository": "https://github.com/trickymast3r/babel-plugin-resolver",
+  "main": "./lib/",
+  "repository": "trickymast3r/babel-plugin-sresolver",
   "author": "Tricky <tricky@t4v.net>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "standard-version": "^4.3.0"
+  },
+  "scripts": {
+    "lint": "eslint src test",
+    "compile": "babel src --out-dir lib",
+    "pretest": "npm run lint",
+    "prepare": "npm run compile",
+    "publish": "standard-version"
+  },
+  "dependencies": {
+    "debug": "^3.1.0",
+    "glob": "^7.1.2"
+  }
 }
