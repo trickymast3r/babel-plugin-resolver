@@ -12,6 +12,9 @@ class Utils {
       throw new Error(e);
     }
   }
+  static length(obj) {
+    return Object.keys(obj).length;
+  }
   static getRelativePath(sourcePath, targetPath) {
     try {
       return path.relative(Utils.getDir(sourcePath), Utils.getDir(targetPath));

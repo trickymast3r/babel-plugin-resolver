@@ -1,3 +1,10 @@
-import transformer from './transformer';
+import Transformer from './transformer';
 
-export default transformer.plug.bind(transformer);
+const resolver = new Transformer();
+
+export default (...args) => {
+  if (args[0] instanceof Object) {
+    return resolver.babelResolver(...args);
+  }
+  return resolver.eslintResolver.apply(this, ...args);
+};
