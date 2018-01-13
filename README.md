@@ -31,7 +31,7 @@ const MyUtilFn = require('../../../../shared/utils');
 Install the plugin
 
 ```
-$ npm install --save-dev @mrjs/babel-plugin-sresolver
+$ npm install --save-dev @mrjs/pkgsolver
 ```
 
 Specify the plugin in your `.babelrc` .Here's an example:
@@ -47,7 +47,7 @@ or custom root folder for scan package.json
 {
   "plugins": [
     ["@mrjs/pkgsolver", {
-      "root": ["./src"],
+      "root": ["../packages/"],
     }]
   ]
 }
