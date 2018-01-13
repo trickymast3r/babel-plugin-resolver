@@ -1,6 +1,6 @@
 {
   "name": "@mrjs/pkgsolver",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Smarter Resolver For Babel",
   "main": "./lib/",
   "repository": "trickymast3r/pkgsolver",
