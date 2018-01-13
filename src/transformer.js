@@ -108,7 +108,6 @@ class Transformer {
     this.types = state.types;
     debug('Plugged in Babel module');
     return {
-      name: 'module-resolver',
       visitor: {
         CallExpression: this.transformCall.bind(this),
       },

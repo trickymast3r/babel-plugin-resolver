@@ -12,12 +12,6 @@ class Utils {
       throw new Error(e);
     }
   }
-  static objectLenght(obj) {
-    if (obj instanceof Object) {
-      return Object.keys(obj).length;
-    }
-    return 0;
-  }
   static getRelativePath(sourcePath, targetPath) {
     try {
       return path.relative(Utils.getDir(sourcePath), Utils.getDir(targetPath));

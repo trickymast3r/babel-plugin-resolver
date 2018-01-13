@@ -1,9 +1,9 @@
 {
-  "name": "@mrjs/babel-plugin-sresolver",
+  "name": "@mrjs/pkgsolver",
   "version": "0.0.2",
   "description": "Smarter Resolver For Babel",
   "main": "./lib/",
-  "repository": "trickymast3r/babel-plugin-sresolver",
+  "repository": "trickymast3r/pkgsolver",
   "author": "Tricky <tricky@t4v.net>",
   "license": "MIT",
   "devDependencies": {
